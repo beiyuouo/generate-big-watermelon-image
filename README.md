@@ -4,6 +4,8 @@
 
 生成合成大西瓜图片！一步到胃！
 
+视频Demo: <a href="https://www.bilibili.com/video/BV1Ai4y1F7cx">BV1Ai4y1F7cx</a>
+
 ## Getting Start
 
 1. 图片处理
