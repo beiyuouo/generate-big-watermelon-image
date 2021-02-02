@@ -8,7 +8,8 @@ import os
 import numpy as np
 
 img_path = 'imgs'
-output_path = 'game\\res\\raw-assets'
+# output_path = 'game\\res\\raw-assets'
+output_path = os.path.join('game', 'res', 'raw-assets')
 
 sizes = [52, 80, 108, 119, 152, 183, 193, 258, 308, 309, 408]
 paths = ['ad', '0c', 'd0', '74', '13', '03', '66', '84', '5f', '56', '50']
@@ -49,7 +50,7 @@ def main():
     for i in range(len(img_list)):
         path = os.path.join(img_path, img_list[i])
 
-        if not img_list[i].lower().endswith(('.bmp', '.png', '.jpg', '.jpeg')):
+        if not img_list[i].lower().endswith(('.png', '.jpg', '.jpeg')):
             print('Please put images only.')
             return
 
